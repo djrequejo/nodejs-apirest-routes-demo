@@ -1,0 +1,37 @@
+{
+  "name": "demo-api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "This repository is a demo for working with Express.js routes, servers, and middlewares. You can build an API, handle errors, and perform data validation.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djrequejo/demo-javascript-asynchronous.git"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Diego Requejo Torero (https://github.com/djrequejo)",
+  "license": "MIT",
+  "homepage": "https://github.com/djrequejo/demo-javascript-asynchronous#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.2.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.12.2"
+  }
+}
