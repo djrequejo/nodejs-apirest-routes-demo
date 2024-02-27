@@ -34,3 +34,6 @@ npm run dev
 # for production
 npm run start
 ```
+
+## 3) Test application
+You have to import the file <code>./Insomnia.json</code> in [Insomnia](https://insomnia.rest/)
